@@ -11,9 +11,7 @@
 -JAVASCRIPT
 
 ## BDD
-This website will require a user to enter the day he\she was born and the year.
-The application will calculate the day of the week the user was born and output it.
-The user should choose the gender either male or female when you click on submit button in order to generate the Akan name
+On the landing page you will be able to select your order by simply clicking on the form input entering the price and it will calculate the total of your order.
 
 ## Support & Contact
 -Incase of any Emergency you can contact 07123456789
