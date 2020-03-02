@@ -90,7 +90,17 @@ function PizzaName(name) {
     }
   
   }
-    
+  function calculate(){
+    var field1 = document.getElementById("size-price").value ;
+    var field2 = document.getElementById("toppings-price").value ;
+    var field3 = document.getElementById("crust-price").value ;
+
+    var result = parseFloat(field1) + parseFloat(field2) + parseFloat(field3);
+
+    if (!isNaN(result)){
+    document.getElementById("answer").innerHTML= " Your total is  " +  result  ;
+    }
+  }
   
     
   
