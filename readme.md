@@ -16,7 +16,7 @@ On the landing page you will be able to select your order by simply clicking on 
 ## Support & Contact
 -Incase of any Emergency you can contact 07123456789
 -Email: kariuki.terry11@gmail.com
--Live link :https://terryyyy.github.io/week4/
+-Live link :https://terryyyy.github.io/pizzarestaurant/
 
 ## Author
 Designed by Kariuki Terry
