@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/menu.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/menu.js"></script>
+
+    <title>Day to Day Restaurant</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Restaurant</h1>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <h2>Order :</h2>
+          <form id="new-order">
+            <div class="form-group">
+              
+              <label for="new-pizza-name">Pizza name</label>
+              <input type="text" class="form-control" id="new-pizza-name">
+            </div>
+            <div id="new-ingredients">
+              <div class="order-ingredients">
+                <div class="form-group">
+                  <label for="new-size">Size</label>
+                  <input type="text" class="form-control "id="new-size">
+                  <input type="text" class="form-control" placeholder="enter price..." id="size-price">
+                  <p> Small - ksh 800</p>
+                  <p> Medium - ksh 1400 </p>
+                  <p> Large - ksh 2000 </p>
+                </div>
+                <div class="form-group">
+                  <label for="new-toppings">Toppings</label>
+                  <input type="text" class="form-control" id= "new-toppings">
+                  <input type="text" class="form-control" placeholder="enter price..." id="toppings-price">
+                  <p> Pepperoni - ksh 700</p>
+                  <p> Mushroom - ksh 300</p>
+                  <p> Bacon - ksh 500</p>
+                  <p> Cheese - ksh 500 </p>
+                </div>
+                <div class="form-group">
+                  <label for="new-crust">Crust</label>
+                  <input type="text" class="form-control" id = "new-crust">
+                  <input type="text" class="form-control" placeholder="enter price..." id="crust-price">
+                  <p> Crispy - ksh 400</p>
+                  <p> Stuffed - ksh 300</p>
+                  <p> Glutten free - ksh 200</p>
+                </div>
+              </div>
+            </div>
+
+            <span class="btn btn-primary" id="add-order">Another Order</span>
+
+            
+            
+          </form>
+
+          <h2> Click on your order!</h2>
+          
+          <ul id="the-order">
+          
+
+          </ul>
+        </div>
+        <div class="col-md-11"> 
+          <div id="show-order">
+            <h1> Your Pizza is:</h1>
+            <h2> <span class="first-pizza"></span></h2>
+            
+            <ul id="ingredients">
+              <p> Type:</p>
+
+            </ul>
+          </div>
+
+          <button onclick="calculate()" style="background-color: green; color: white;" class="btn">Total </button>
+            <p id = "answer" > </p>
+
+
+            <button onclick="myFunction()" style="background-color: green; color: white;"> Want Delivery? </button>
+
+            <p id="placelocation"> </p>
+            
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
