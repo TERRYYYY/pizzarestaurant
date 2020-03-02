@@ -80,27 +80,6 @@ function PizzaName(name) {
     //}
   //})
   
-  function myFunction() {
-    var person = prompt("Please enter your name:");
-    var location = prompt("Please enter your location")
-    if (person == null || person == "" , location == null || location == "") {
-      alert("Please fill in your details!");
-    } else {
-      alert("Hello " + person + "! We have received your order and your delivery will be made at "  + location );
-    }
-  
-  }
-    function calculate(){
-      var field1 = document.getElementById("size-price").value ;
-      var field2 = document.getElementById("toppings-price").value ;
-      var field3 = document.getElementById("crust-price").value ;
-
-      var result = parseFloat(field1) + parseFloat(field2) + parseFloat(field3);
-
-      if (!isNaN(result)){
-      document.getElementById("answer").innerHTML= " Your total is  " +  result  ;
-      }
-    }
-  
+ 
     
   
